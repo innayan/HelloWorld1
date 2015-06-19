@@ -1,0 +1,8 @@
+C:\NUnitSample\HelloWorld\HelloWorld\HelloWorld.Tests.Ref\bin\Debug\HelloWorld.Tests.Ref.dll
+C:\NUnitSample\HelloWorld\HelloWorld\HelloWorld.Tests.Ref\bin\Debug\HelloWorld.Tests.Ref.pdb
+C:\NUnitSample\HelloWorld\HelloWorld\HelloWorld.Tests.Ref\bin\Debug\ClassLibrary1.dll
+C:\NUnitSample\HelloWorld\HelloWorld\HelloWorld.Tests.Ref\bin\Debug\nunit.framework.dll
+C:\NUnitSample\HelloWorld\HelloWorld\HelloWorld.Tests.Ref\bin\Debug\ClassLibrary1.pdb
+C:\NUnitSample\HelloWorld\HelloWorld\HelloWorld.Tests.Ref\obj\Debug\HelloWorld.Tests.Ref.csprojResolveAssemblyReference.cache
+C:\NUnitSample\HelloWorld\HelloWorld\HelloWorld.Tests.Ref\obj\Debug\HelloWorld.Tests.Ref.dll
+C:\NUnitSample\HelloWorld\HelloWorld\HelloWorld.Tests.Ref\obj\Debug\HelloWorld.Tests.Ref.pdb

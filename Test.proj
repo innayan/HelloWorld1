@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Test" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<UsingTask TaskName="NUnit" AssemblyFile="Libs\MSBuild.Community.Tasks.dll"/>
+    <UsingTask TaskName="JetBrains.BuildServer.MSBuildLoggers.NUnit" AssemblyFile="C:\Projects\TeamServer\BuildServer\.idea_artifacts\agent_deployment_debug\plugins\dotnetPlugin\bin\JetBrains.BuildServer.MSBuildLoggers.4.0.dll" />
+	<Target Name="Test">
+		<CreateItem Include="C:\Projects\GitHub\HelloWorld\HelloWorld.Tests.NUnit2\bin\Debug\*.Tests.NUnit2.dll">
+    		<Output TaskParameter="Include" ItemName="NUnit2TestAssembly" />
+	    </CreateItem>
+		<JetBrains.BuildServer.MSBuildLoggers.NUnit Assemblies="@(NUnit2TestAssembly)" ToolPath="C:\Program Files\NUnit-2.6.4\bin"/>
+		<CreateItem Include="HelloWorld.Tests\bin\Debug\*.Tests.dll">
+    		<Output TaskParameter="Include" ItemName="NUnit3TestAssembly" />
+	    </CreateItem>
+		<NUnit Assemblies="@(NUnit3TestAssembly)" ToolPath="C:\Projects\GitHub\nunit\bin\Debug"/>
+	</Target>
+</Project>
